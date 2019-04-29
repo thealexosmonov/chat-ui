@@ -1,0 +1,186 @@
+body{
+    font-family: 'Nunito';
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+h2{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #575ed8;
+}
+
+
+
+#infinity-chat{
+    max-width: 700px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+    position:relative;
+    bottom: 160px;
+
+}
+
+
+#chat-window{
+    height: 600px;
+    overflow: auto;
+    background: #f9f9f9;
+    border: 1px solid #007acc;
+}
+
+
+#output {
+    padding: 14px 0px;
+    margin: 0px 10px;
+    font-size: large;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+
+}
+
+#avatar {
+    padding: 14px 0px;
+    margin: 0 10px;
+    color: #555;
+
+
+}
+
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #575ed8;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+
+}
+
+input.message{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 1px solid #007acc;
+    display: block;
+    width: 84%;
+    height: 100%;
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #007acc;
+    font-family: Nunito;
+    font-size: 16px;
+
+}
+
+input.registration{
+    max-width: 20%;
+    position: relative;
+    left: 355px;
+    bottom: 135px;
+
+
+}
+
+input.image{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 1px solid #007acc;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #007acc;
+    font-family: Nunito;
+    font-size: 16px;
+    position:relative;
+    top: -100px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 1px solid #007acc;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #007acc;
+    font-family: Nunito;
+    font-size: 16px;
+
+}
+
+button{
+    background: #007acc;
+    color: #fff;
+    font-size: 18px;
+    border: 50px;
+    padding: 20px 0;
+    width: 50%;
+    text-align: center;
+    border-radius: 0 0 2px 2px;
+}
+
+button.message{
+
+}
+
+.menu-button{
+    background-color: #007acc;
+    color: #ffffff;
+    padding: 30px;
+    width: 60%;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #007acc;
+    text-align: left;
+
+}
+
+.left-menu {
+    position: relative;
+    display: inline-block;
+    left: -150px;
+    top: -225px;
+    padding: 30px;
+    width: 20%;
+    border: 1px solid #ffffff;
+}
+
+
+.dropdown-menu{
+    display:none;
+    position: absolute;
+    background-color: #007acc;
+    max-width: 150px;
+    max-height: 250px;
+    z-index: 1;
+}
+
+.dropdown-menu a:hover{
+    background-color: #007acc;
+    color: #ffffff;
+}
+
+.left-menu:hover .dropdown-menu{
+    display: block;
+
+}
+
+.left-menu:hover .menu-button{
+    background-color: transparent;
+}
+

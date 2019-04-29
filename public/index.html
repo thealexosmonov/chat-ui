@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Infinity Chat</title>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js" ></script>
+    <link href = "/styles.css" rel = "stylesheet" >
+</head>
+
+
+<body>
+
+    <div>
+        <img src = '/images/app-logo.png' style="display: block; margin-left: auto; margin-right: auto;
+        width: 200px; height: 200px;" >
+    </div>
+
+    <div class = "wrapper"> <!-- Choose Avatar -->
+        <div class = 'left-menu'>
+            <button class = 'menu-button'> Choose <br /> Avatar! </button>
+            <div class = 'dropdown-menu'>
+                <input id = a1 type="image" src='/images/captainamerica.png' alt = 'Captain America' class = 'image'/>
+                <input id = a2 type="image" src='/images/ironman.png' alt="Iron Man" class = 'image'/>
+                <input id = a3 type="image" src='/images/groot.png' alt="Groot" class = 'image'/>
+                <input id = a4 type="image" src='/images/thanos.png' alt="Thanos" class = 'image'/>
+                <input id = a5 type="image" src='/images/thor.png' alt ='Thor' class = 'image'/>
+                <input id = a6 type="image" src='/images/dr.strange.png' alt ='Dr.Strange' class = 'image'/>
+                <input id = a7 type="image" src='/images/vision.png' alt ='Vision' class = 'image'/>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+        <input id = "user" type = "text" placeholder = "Enter Name" class = 'registration'/>
+    </div>
+
+    <div id = 'infinity-chat'>
+        <div id = "chat-window">
+            <div id = "output" style ="display: inline-block; vertical-align: middle;"></div>
+            <div id = "feedback"></div>
+        </div>
+
+
+        <input id = "message" type = "text" placeholder = "Don't just sit there..." class = 'message'style = "float: left" />
+        <button id = "send" class = 'message' style = "float: right; height: 60px; width: 112px;"> Send! </button>
+
+    </div>
+
+
+
+
+    <script src = "/chat.js"></script>
+</body>
+
+
+</html>
