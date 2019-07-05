@@ -3,3 +3,14 @@ A small chat app that I built for a start-up I interviewed with, by using Javasc
 
 Version 1.0: Basic functionality implemented
 
+Drop down menu to select your avatar
+![](screenshots/1.png)
+-------------------
+Live connection allows you to see when others are typing messages
+![](screenshots/2.png)
+![](screenshots/3.png)
+-------------------
+
+Supports multiple users
+![](screenshots/4.png)
+-------------------
