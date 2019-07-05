@@ -1,5 +1,6 @@
 # Chat App
-A small chat app that I built over a couple of hours for a start-up I was interviewing with, by using Javascript, CSS, & Socket.io
+A small chat app that I built over a couple of hours for a start-up I was interviewing with.
+Used Javascript, CSS, & Socket.io
 
 Version 1.0: Basic functionality implemented
 
